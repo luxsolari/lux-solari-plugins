@@ -1,0 +1,30 @@
+{
+  "name": "lux-solari-plugins",
+  "owner": {
+    "name": "Lux Solari",
+    "email": "luxsolari@outlook.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Lux Solari"
+  },
+  "plugins": [
+    {
+      "name": "three-axes-framework",
+      "description": "Always-active framework that calibrates AI behavior across Mastery, Consequence, and Intent axes to prevent comprehension debt.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Lux Solari",
+        "email": "luxsolari@outlook.com"
+      },
+      "homepage": "https://github.com/luxsolari/three-axes-framework",
+      "repository": "https://github.com/luxsolari/three-axes-framework",
+      "license": "MIT",
+      "keywords": ["ai-assisted-development", "comprehension-debt", "developer-philosophy", "learning"],
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "luxsolari/three-axes-framework"
+      }
+    }
+  ]
+}
