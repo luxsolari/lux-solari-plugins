@@ -11,7 +11,7 @@
     {
       "name": "three-axes-framework",
       "description": "Always-active framework that calibrates AI behavior across Mastery, Consequence, and Intent axes to prevent comprehension debt.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "author": {
         "name": "Lux Solari",
         "email": "luxsolari@outlook.com"
