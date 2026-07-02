@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate marketplace.json syntax and check for duplicate plugin names
+        run: |
+          python3 -c "
+          import json, sys
+          data = json.load(open('.claude-plugin/marketplace.json'))
+          names = [p['name'] for p in data['plugins']]
+          dupes = {n for n in names if names.count(n) > 1}
+          if dupes:
+              print(f'Duplicate plugin name(s) in marketplace.json: {dupes}')
+              sys.exit(1)
+          for p in data['plugins']:
+              assert 'source' in p, f\"{p['name']} is missing 'source'\"
+          print(f'{len(names)} plugin(s) listed, no duplicates, all have a source.')
+          "

@@ -11,7 +11,6 @@
     {
       "name": "three-axes-framework",
       "description": "Always-active framework that calibrates AI behavior across Mastery, Consequence, and Intent axes to prevent comprehension debt.",
-      "version": "1.1.3",
       "author": {
         "name": "Lux Solari",
         "email": "luxsolari@outlook.com"
@@ -29,7 +28,6 @@
     {
       "name": "sage-instructor",
       "description": "Adaptive programming instructor — structured courses with discovery-first teaching, AskUserQuestion interactions, progress tracking, and pluggable curricula. Powered by the Three Axes Framework.",
-      "version": "1.7.0",
       "author": {
         "name": "Lux Solari",
         "email": "luxsolari@outlook.com"
