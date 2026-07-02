@@ -25,6 +25,24 @@
         "source": "github",
         "repo": "luxsolari/three-axes-framework"
       }
+    },
+    {
+      "name": "sage-instructor",
+      "description": "Adaptive programming instructor — structured courses with discovery-first teaching, AskUserQuestion interactions, progress tracking, and pluggable curricula. Powered by the Three Axes Framework.",
+      "version": "1.7.0",
+      "author": {
+        "name": "Lux Solari",
+        "email": "luxsolari@outlook.com"
+      },
+      "homepage": "https://github.com/luxsolari/sage-instructor",
+      "repository": "https://github.com/luxsolari/sage-instructor",
+      "license": "MIT",
+      "keywords": ["instructor", "learning", "teaching", "curriculum", "three-axes-framework", "comprehension-debt", "programming-education"],
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "luxsolari/sage-instructor"
+      }
     }
   ]
 }
