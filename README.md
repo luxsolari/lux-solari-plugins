@@ -38,17 +38,18 @@ claude plugin install sage-instructor@lux-solari-plugins
 
 See [sage-instructor](https://github.com/luxsolari/sage-instructor) for full documentation.
 
-### changelog-releases-assistant
+### whiting
 
-Sets up GitHub Release automation driven by a repo's `CHANGELOG.md`: push a
-version tag, get a Release whose body is pulled straight from the matching
-changelog section — no manual release-notes writing.
+Bootstraps a repo's whole release discipline: init the repo, enforce
+Conventional Commits, derive semver bumps from commit history, and publish
+GitHub Releases straight from `CHANGELOG.md`. Includes an `inspect` skill
+to audit and retrofit existing repos.
 
 ```bash
-claude plugin install changelog-releases-assistant@lux-solari-plugins
+claude plugin install whiting@lux-solari-plugins
 ```
 
-See [changelog-releases-assistant](https://github.com/luxsolari/changelog-releases-assistant) for full documentation.
+See [whiting](https://github.com/luxsolari/whiting) for full documentation.
 
 ## Maintaining this marketplace
 
