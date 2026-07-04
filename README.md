@@ -38,6 +38,18 @@ claude plugin install sage-instructor@lux-solari-plugins
 
 See [sage-instructor](https://github.com/luxsolari/sage-instructor) for full documentation.
 
+### changelog-releases-assistant
+
+Sets up GitHub Release automation driven by a repo's `CHANGELOG.md`: push a
+version tag, get a Release whose body is pulled straight from the matching
+changelog section — no manual release-notes writing.
+
+```bash
+claude plugin install changelog-releases-assistant@lux-solari-plugins
+```
+
+See [changelog-releases-assistant](https://github.com/luxsolari/changelog-releases-assistant) for full documentation.
+
 ## Maintaining this marketplace
 
 Each plugin's `version` here is intentionally omitted — Claude Code resolves a
