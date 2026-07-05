@@ -75,6 +75,23 @@
         "source": "github",
         "repo": "luxsolari/lux-design-system"
       }
+    },
+    {
+      "name": "hannah",
+      "description": "F1 strategy engineer for your LLM garage: analyzes a repo, reads your hardware, and recommends the optimal local LLM models.",
+      "author": {
+        "name": "Lux Solari",
+        "email": "laxeayanami@gmail.com"
+      },
+      "homepage": "https://github.com/luxsolari/hannah",
+      "repository": "https://github.com/luxsolari/hannah",
+      "license": "MIT",
+      "keywords": ["llm", "ollama", "models", "hardware", "repo-analysis", "mlx", "local-inference"],
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "luxsolari/hannah"
+      }
     }
   ]
 }
