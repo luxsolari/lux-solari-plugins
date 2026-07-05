@@ -65,6 +65,18 @@ claude plugin install lux-design-system@lux-solari-plugins
 
 See [lux-design-system](https://github.com/luxsolari/lux-design-system) for full documentation.
 
+### hannah
+
+F1 strategy engineer for your LLM garage: analyzes a repo, reads your
+hardware, and recommends the optimal local LLM models (Ollama, MLX, and
+other local-inference setups).
+
+```bash
+claude plugin install hannah@lux-solari-plugins
+```
+
+See [hannah](https://github.com/luxsolari/hannah) for full documentation.
+
 ## Maintaining this marketplace
 
 Each plugin's `version` here is intentionally omitted — Claude Code resolves a
