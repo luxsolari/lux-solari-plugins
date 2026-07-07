@@ -82,7 +82,7 @@ See [hannah](https://github.com/luxsolari/hannah) for full documentation.
 
 Tri-Swiss — a tri-tone (ink + cream + Swiss Red + Pastel Turquoise highlight)
 Swiss-minimalist design system built around the Geist typeface family.
-Sibling to `lux-design-system` (Duotone Swiss); same governance, different
+Sibling to `lux-swiss` (formerly Duotone Swiss); same governance, different
 palette and type identity. Ships a ready-to-paste Tailwind 4 theme and a
 component catalogue.
 
