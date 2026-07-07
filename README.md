@@ -51,19 +51,20 @@ claude plugin install whiting@lux-solari-plugins
 
 See [whiting](https://github.com/luxsolari/whiting) for full documentation.
 
-### lux-design-system
+### lux-swiss
 
-Duotone Swiss — Lux Solari's house design language. A strict two-color palette
-(ink + warm cream) plus a single blood-red accent, Swiss-minimalist layout with
-visible borders and no shadows, Space Mono / Space Grotesk typography, and
-hand-rolled SVG charts. Applies a consistent aesthetic to any UI work by default
-and ships a ready-to-paste Tailwind 4 theme.
+Lux Swiss (formerly Duotone Swiss) — one of Lux Solari's house-mark design
+systems. A strict two-color palette (ink + warm cream) plus a single
+blood-red accent, Swiss-minimalist layout with visible borders and no
+shadows, Space Mono / Space Grotesk typography, and hand-rolled SVG charts.
+Applies a consistent aesthetic to any UI work by default and ships a
+ready-to-paste Tailwind 4 theme.
 
 ```bash
-claude plugin install lux-design-system@lux-solari-plugins
+claude plugin install lux-swiss@lux-solari-plugins
 ```
 
-See [lux-design-system](https://github.com/luxsolari/lux-design-system) for full documentation.
+See [lux-swiss](https://github.com/luxsolari/lux-swiss) for full documentation.
 
 ### hannah
 
