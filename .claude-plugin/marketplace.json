@@ -60,20 +60,20 @@
       }
     },
     {
-      "name": "lux-design-system",
-      "description": "Duotone Swiss — Lux Solari's house design language. A strict two-color (ink + warm cream) plus single blood-red accent, Swiss-minimalist visual system: visible borders, no shadows, Space Mono / Space Grotesk typography, hand-rolled SVG charts. Applies a consistent aesthetic across any stack.",
+      "name": "lux-swiss",
+      "description": "Lux Swiss (formerly Duotone Swiss) — one of Lux Solari's house-mark design systems. A strict two-color (ink + warm cream) plus single blood-red accent, Swiss-minimalist visual system: visible borders, no shadows, Space Mono / Space Grotesk typography, hand-rolled SVG charts. Applies a consistent aesthetic across any stack.",
       "author": {
         "name": "Lux Solari",
         "email": "luxsolari@outlook.com"
       },
-      "homepage": "https://github.com/luxsolari/lux-design-system",
-      "repository": "https://github.com/luxsolari/lux-design-system",
+      "homepage": "https://github.com/luxsolari/lux-swiss",
+      "repository": "https://github.com/luxsolari/lux-swiss",
       "license": "MIT",
       "keywords": ["design-system", "duotone", "swiss-minimalist", "tailwind", "ui", "frontend", "theming", "space-mono", "space-grotesk"],
       "category": "design",
       "source": {
         "source": "github",
-        "repo": "luxsolari/lux-design-system"
+        "repo": "luxsolari/lux-swiss"
       }
     },
     {
