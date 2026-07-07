@@ -92,6 +92,23 @@
         "source": "github",
         "repo": "luxsolari/hannah"
       }
+    },
+    {
+      "name": "tri-swiss",
+      "description": "Tri-Swiss — a tri-tone (ink + cream + Swiss Red + Pastel Turquoise highlight) Swiss-minimalist design system built around the Geist typeface family. Sibling to lux-design-system (Duotone Swiss); same governance, different palette and type identity.",
+      "author": {
+        "name": "Lux Solari",
+        "email": "luxsolari@outlook.com"
+      },
+      "homepage": "https://github.com/luxsolari/tri-swiss",
+      "repository": "https://github.com/luxsolari/tri-swiss",
+      "license": "MIT",
+      "keywords": ["design-system", "tri-tone", "swiss-minimalist", "tailwind", "ui", "frontend", "theming", "geist", "geist-sans", "geist-mono"],
+      "category": "design",
+      "source": {
+        "source": "github",
+        "repo": "luxsolari/tri-swiss"
+      }
     }
   ]
 }
