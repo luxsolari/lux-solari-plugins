@@ -25,3 +25,5 @@ jobs:
               assert 'source' in p, f\"{p['name']} is missing 'source'\"
           print(f'{len(names)} plugin(s) listed, no duplicates, all have a source.')
           "
+      - name: Check Bauer marketplace entry
+        run: python3 -m unittest discover -s tests -v

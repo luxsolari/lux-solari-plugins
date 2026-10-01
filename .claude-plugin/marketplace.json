@@ -109,6 +109,22 @@
         "source": "github",
         "repo": "luxsolari/tri-swiss"
       }
+    },
+    {
+      "name": "bauer",
+      "description": "Evidence-backed OWASP security audits with optional Jev review.",
+      "author": {
+        "name": "Lux Solari"
+      },
+      "homepage": "https://github.com/luxsolari/bauer",
+      "repository": "https://github.com/luxsolari/bauer",
+      "license": "MIT",
+      "keywords": ["security", "owasp", "llm", "audit"],
+      "category": "security",
+      "source": {
+        "source": "github",
+        "repo": "luxsolari/bauer"
+      }
     }
   ]
 }

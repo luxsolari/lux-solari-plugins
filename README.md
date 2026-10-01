@@ -92,6 +92,28 @@ claude plugin install tri-swiss@lux-solari-plugins
 
 See [tri-swiss](https://github.com/luxsolari/tri-swiss) for full documentation.
 
+### bauer
+
+Evidence-backed OWASP Web and LLM security audits for authorized codebase
+reviews, with source tracing, deterministic reports, and optional Jev review.
+Read-only by default; executing repository code requires permission and
+isolation, and each Jev packet requires consent to disclose evidence externally.
+Bauer is an agent workflow, not a standalone scanner or security certification.
+
+```bash
+claude plugin install bauer@lux-solari-plugins
+```
+
+Or from inside Claude Code:
+
+```
+/plugin install bauer@lux-solari-plugins
+```
+
+See [Bauer](https://github.com/luxsolari/bauer) for usage, requirements, and
+current implementation status. This catalog resolves its source from GitHub;
+it does not imply a tagged release or successful hosted CI.
+
 ## Maintaining this marketplace
 
 Each plugin's `version` here is intentionally omitted — Claude Code resolves a
@@ -104,7 +126,13 @@ moves.
 Test changes to this catalog locally before pushing:
 
 ```bash
-claude plugin validate .                                    # checks marketplace.json syntax
+claude plugin validate .                                    # validates the marketplace manifest
+python3 -m unittest discover -s tests -v                     # checks Bauer source and metadata
+```
+
+Optional installation smoke test (changes your local Claude configuration):
+
+```bash
 claude plugin marketplace add ./lux-solari-plugins           # add the local copy
 claude plugin install <name>@lux-solari-plugins              # install a plugin from it
 ```
