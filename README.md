@@ -119,6 +119,14 @@ vulnerability; it did not exercise an activated marketplace plugin. The
 publication-wording candidate was not reproduced, and secret-pattern screening
 remains best effort, not a substitute for reviewing each disclosure packet.
 
+The catalog already follows the canonical default branch, currently verified at
+`8dd9d1d5175187255398562e0381a6118896d9cf`; no catalog source change is needed.
+For optional Jev, use [current credential setup](https://github.com/luxsolari/bauer/blob/8dd9d1d5175187255398562e0381a6118896d9cf/README.md#configure-your-key):
+persistent terminal environment setup or the recommended 1Password launcher,
+with separate GUI launch-environment requirements and approval for each packet.
+This post-tag README correction changes no helper behavior or release tag;
+existing installs are not automatically verified or updated by this check.
+
 See [Bauer](https://github.com/luxsolari/bauer) for usage, requirements, and full
 audit limitations, and its [releases page](https://github.com/luxsolari/bauer/releases)
 for publication status. This catalog keeps the canonical GitHub default-branch
