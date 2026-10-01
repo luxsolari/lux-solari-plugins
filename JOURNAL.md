@@ -1,5 +1,42 @@
 # Journal
 
+## 2026-10-01 — Bauer description wording correction
+
+- Changed: at user direction, Bauer catalog description is exactly
+  `Evidence-backed security audits with optional Jev review.`; updated the
+  existing regression expectation. Metadata wording only, not a scope,
+  version, source, or helper behavior change.
+- Verified: the prior OWASP-specific expectation failed on the new description
+  before updating it. Both normal and strict Claude manifest validation then
+  passed, the marketplace unittest passed, and `git diff --check` passed.
+  No source or version pin introduced.
+- Open: parent is updating canonical main metadata after v0.1.1; immutable
+  v0.1.1 source stays `9870701ce5fa73cecc71a9ed2e1935eeebb8e943`. Parent still
+  owns canonical release gates and regular merge, with no admin bypass.
+- Files: `.claude-plugin/marketplace.json`, `tests/test_marketplace.py`, JOURNAL.md.
+
+## 2026-10-01 — Bauer v0.1.1 Claude catalog documentation refresh
+
+- Changed: README records the documentation-only v0.1.1 refresh and bounded
+  authenticated Claude session-local audit from canonical GitHub source
+  `9870701ce5fa73cecc71a9ed2e1935eeebb8e943`. Four helpers were read; cached
+  guidance and unchanged frozen source do not establish activated marketplace
+  runtime behavior or security certification. Publication-wording candidate
+  remains unreproduced; secret-pattern screening remains best effort.
+- Verified: GitHub commit/manifest readback shows canonical Bauer v0.1.1.
+  `claude plugin validate .` and `claude plugin validate . --strict` both passed;
+  `python3 -m unittest discover -s tests -v` passed the marketplace regression.
+  Catalog inventory has seven unique plugins, all with sources;
+  `git diff --check` passed.
+- Ruled out: the Bauer catalog entry has no fixed ref or catalog version, so
+  retained `{"source":"github","repo":"luxsolari/bauer"}` and upstream manifest
+  version resolution. No code duplication, source pin, catalog version, helper
+  changes, active profile installs, or edits to other repositories.
+- Open: parent owns canonical hosted CI/tag/release gates and regular PR merge;
+  this refresh does not claim a released tag or newly verified installation.
+- Branch: clean scratch worktree from `origin/main` at `ebc1a73`, preserving the
+  original local `feat/bauer-audit` branch. Files: README.md, JOURNAL.md.
+
 ## 2026-10-01 — Add Bauer to the Claude marketplace
 
 - Changed: added the `bauer` GitHub source (`luxsolari/bauer`) with description,

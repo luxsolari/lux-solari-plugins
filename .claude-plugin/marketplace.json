@@ -112,7 +112,7 @@
     },
     {
       "name": "bauer",
-      "description": "Evidence-backed OWASP security audits with optional Jev review.",
+      "description": "Evidence-backed security audits with optional Jev review.",
       "author": {
         "name": "Lux Solari"
       },
