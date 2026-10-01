@@ -1,5 +1,11 @@
 # Journal
 
+## 2026-10-01 — Current Bauer setup/provenance synchronization
+
+- Verified canonical default branch at `8dd9d1d5175187255398562e0381a6118896d9cf`: Claude GitHub source and metadata already match, so catalog/tests stay unchanged. README now links current persistent-environment/1Password setup while retaining historical dogfood limitations.
+- Both normal/strict Claude validations passed; one marketplace regression passed, seven unique source-bearing entries verified, current canonical manifest comparison and git diff --check passed. No helper/runtime change, tag rewrite, credentials or active profile modifications.
+- Independent read-only Codex review returned passed=true with no blocking findings. Publication uses a clean scratch worktree; user permits push/merge/admin only after review and green exact-head CI. New installation/activated marketplace runtime not exercised; README and JOURNAL are the only changed files.
+
 ## 2026-10-01 — Bauer description wording correction
 
 - Changed: at user direction, Bauer catalog description is exactly
