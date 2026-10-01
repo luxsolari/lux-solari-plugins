@@ -1,5 +1,11 @@
 # Journal
 
+## 2026-10-01 — Bauer v0.2.0 current canonical publication link
+
+- Verified unchanged branch-following Bauer catalog GitHub source luxsolari/bauer and exact metadata against canonical `69c870e3bc5cfedc204899c9ad08feaef8f7e5d8` (v0.2.0); no fixed catalog version, artificial source edit or tag rewrite. Refresh README to final revision/current setup plus selection/completion/94-test boundaries; module completion.py has no standalone CLI, report.py renders both gate formats.
+- Normal/strict Claude manifest validators pass, one marketplace regression passes, seven unique source-bearing catalog entries retained, git diff --check passes. Canonical PR4 and merged-main six-job CI succeeded; immutable release target readback is separate from these catalog checks. Actual host exercises are synthetic local routes and corrected-helper eligible offers stop for consent; no fresh feed audit, activated marketplace runtime, current installation or post-consent API claim.
+- Publication will require green exact-head hosted checks and exact-head squash merge; user-authorized admin only for missing approving review. Remote catalog/source/setup readback will be retained in scratch/bauer-v020-publication. Original checkouts/profiles and earlier tags preserved. Files: README.md, JOURNAL.md only. Open at commit: marketplace CI/merge/readback; no active install required.
+
 ## 2026-10-01 — Current Bauer setup/provenance synchronization
 
 - Verified canonical default branch at `8dd9d1d5175187255398562e0381a6118896d9cf`: Claude GitHub source and metadata already match, so catalog/tests stay unchanged. README now links current persistent-environment/1Password setup while retaining historical dogfood limitations.

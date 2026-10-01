@@ -110,29 +110,26 @@ Or from inside Claude Code:
 /plugin install bauer@lux-solari-plugins
 ```
 
-Bauer v0.1.1 is a documentation-only refresh with unchanged helper behavior.
-The [canonical source](https://github.com/luxsolari/bauer/tree/9870701ce5fa73cecc71a9ed2e1935eeebb8e943)
-records authenticated Claude Code session-local `bauer:bauer` execution and
-reads of all four helpers. That bounded, read-only audit used cached guidance,
-left its frozen source unchanged, and found no new demonstrated security
-vulnerability; it did not exercise an activated marketplace plugin. The
-publication-wording candidate was not reproduced, and secret-pattern screening
-remains best effort, not a substitute for reviewing each disclosure packet.
+Bauer v0.2.0 at canonical revision `69c870e3bc5cfedc204899c9ad08feaef8f7e5d8` adds deterministic
+Jev selection with disabled/MEDIUM defaults, explicit scheduling opt-in, complete
+five-severity tables and a supplied-evidence completion/applicability gate. Five
+CLI helpers plus the completion support module and 94 offline tests ship upstream.
+Run report.py for both gate formats; completion.py has no standalone CLI. A separate boolean-only
+helper-environment preflight proactively offers all eligible reviews when a key
+is present; final packet approval remains separate from scheduling and key presence.
+Actual Claude session-local plugin and Codex local-skill synthetic checks verified
+queues, final count tables and present/absent preflight behavior without TypeSafe
+requests. Corrected-helper eligible-offer exercises used dummy-only presence
+and stopped for consent; no post-consent API transmission was tested. The gate
+validates supplied records, not source truth. These are not fresh feed audits or
+activated marketplace tests.
+Current installation is not established by the catalog checks.
 
-The catalog already follows the canonical default branch, currently verified at
-`8dd9d1d5175187255398562e0381a6118896d9cf`; no catalog source change is needed.
-For optional Jev, use [current credential setup](https://github.com/luxsolari/bauer/blob/8dd9d1d5175187255398562e0381a6118896d9cf/README.md#configure-your-key):
-persistent terminal environment setup or the recommended 1Password launcher,
-with separate GUI launch-environment requirements and approval for each packet.
-This post-tag README correction changes no helper behavior or release tag;
-existing installs are not automatically verified or updated by this check.
-
-See [Bauer](https://github.com/luxsolari/bauer) for usage, requirements, and full
-audit limitations, and its [releases page](https://github.com/luxsolari/bauer/releases)
-for publication status. This catalog keeps the canonical GitHub default-branch
-source and resolves the version from upstream `plugin.json`; it does not pin
-v0.1.1 or imply a tagged release, successful hosted CI, or current installation
-verification.
+The catalog already follows `{"source":"github","repo":"luxsolari/bauer"}`;
+source and metadata remain unchanged. It resolves version 0.2.0 from the canonical
+manifest, not a duplicated catalog version or fixed tag. See [current setup](https://github.com/luxsolari/bauer/blob/69c870e3bc5cfedc204899c9ad08feaef8f7e5d8/README.md#configure-your-key)
+and [release status](https://github.com/luxsolari/bauer/releases). Earlier release
+tags and historical limitations are preserved.
 
 ## Maintaining this marketplace
 
