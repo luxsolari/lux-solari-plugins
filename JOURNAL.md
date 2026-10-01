@@ -1,5 +1,11 @@
 # Journal
 
+## 2026-10-01 — Bauer v0.2.1 token-warning catalog readback
+
+- Update current Bauer README/version/pin/setup/token-guidance links to immutable canonical `08320e9155850cbd9b4be2f2051eb62bf4247f81`, version0.2.1/96 tests. Visible token-intensive warning explains repository tracing/source queries/evidence review/reporting, scope/host variability, separate optional Jev charges and bounded scope without false completion or estimates. Default-branch GitHub source already follows canonical; catalog bytes and metadata deliberately unchanged.
+- Marketplace1 regression test and Claude normal/strict validators pass; git diff --check passes. Root read-only review verifies README-only scope, unchanged source/catalog and pinned canonical warning/SKILL/renderer. Canonical independent Codex review cleared correction; actual preflight-only local-skill trace delivered the warning, not a new full audit or activated install.
+- Canonical PR5/merged-main six-job CI and non-draft/non-prerelease v0.2.1 release/tag read back. Exact-head marketplace CI/merge/readback remains required; user-authorized admin only for missing review, never failed checks. Remote evidence goes in scratch receipt, no source journal churn. Original branches, old tags, profiles/installs and personal shell configuration preserved; no secrets/advisory/Jev query. Files: README.md/JOURNAL.md. Open at commit: hosted CI/merge/readback; current active installation remains unclaimed.
+
 ## 2026-10-01 — Bauer v0.2.0 current canonical publication link
 
 - Verified unchanged branch-following Bauer catalog GitHub source luxsolari/bauer and exact metadata against canonical `69c870e3bc5cfedc204899c9ad08feaef8f7e5d8` (v0.2.0); no fixed catalog version, artificial source edit or tag rewrite. Refresh README to final revision/current setup plus selection/completion/94-test boundaries; module completion.py has no standalone CLI, report.py renders both gate formats.
