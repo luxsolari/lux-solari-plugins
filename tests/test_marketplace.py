@@ -16,7 +16,7 @@ class BauerMarketplaceTest(unittest.TestCase):
         bauer = entries[0]
         expected = {
             "source": {"source": "github", "repo": "luxsolari/bauer"},
-            "description": "Evidence-backed OWASP security audits with optional Jev review.",
+            "description": "Evidence-backed security audits with optional Jev review.",
             "author": {"name": "Lux Solari"},
             "homepage": "https://github.com/luxsolari/bauer",
             "repository": "https://github.com/luxsolari/bauer",
