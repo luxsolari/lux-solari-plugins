@@ -110,9 +110,21 @@ Or from inside Claude Code:
 /plugin install bauer@lux-solari-plugins
 ```
 
-See [Bauer](https://github.com/luxsolari/bauer) for usage, requirements, and
-current implementation status. This catalog resolves its source from GitHub;
-it does not imply a tagged release or successful hosted CI.
+Bauer v0.1.1 is a documentation-only refresh with unchanged helper behavior.
+The [canonical source](https://github.com/luxsolari/bauer/tree/9870701ce5fa73cecc71a9ed2e1935eeebb8e943)
+records authenticated Claude Code session-local `bauer:bauer` execution and
+reads of all four helpers. That bounded, read-only audit used cached guidance,
+left its frozen source unchanged, and found no new demonstrated security
+vulnerability; it did not exercise an activated marketplace plugin. The
+publication-wording candidate was not reproduced, and secret-pattern screening
+remains best effort, not a substitute for reviewing each disclosure packet.
+
+See [Bauer](https://github.com/luxsolari/bauer) for usage, requirements, and full
+audit limitations, and its [releases page](https://github.com/luxsolari/bauer/releases)
+for publication status. This catalog keeps the canonical GitHub default-branch
+source and resolves the version from upstream `plugin.json`; it does not pin
+v0.1.1 or imply a tagged release, successful hosted CI, or current installation
+verification.
 
 ## Maintaining this marketplace
 
