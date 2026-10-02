@@ -1,5 +1,13 @@
 # Journal
 
+## 2026-10-02 — Bauer v0.3.0 bounded release synchronization
+
+- Sync canonical `25cad4f9c2e875444348f738fea012b812ae4287`: profiles, confirmed run records, scorecards and offline controls. GitHub default-branch source already resolves canonical; no invented catalog change.
+- Verified locally: One catalog regression and Claude strict marketplace validation pass. GitHub source stays canonical default branch, no duplicated catalog version or source edit. This verifies resolution/metadata, not fresh installation or host execution.
+- Concise README/setup follows final canonical docs. Unsigned records cannot authenticate users or stop host reads/fabricated evidence. Claude target Glob/helper ordering/third-turn delivery and Codex default offline-disable correction remain known limits; no new activated-host installation or certification claim.
+- Preserve original checkout/branches, unrelated work, older tags and profiles. No live advisory/Jev calls, credential reads or production changes. Exact local checks, normal Hermes scanning, package CLI receipts and green-head publication/readbacks: scratch/bauer-v030-publication/receipt.json. Existing Three Axes local failure and Python 3.14 boundary remain separate, not hidden or repaired.
+- Files: Bauer package/inventory/tests where copied; README/JOURNAL and relevant parity/changelog docs. Publication checks/readback remain pending at commit and are recorded in the external receipt.
+
 ## 2026-10-01 — Bauer v0.2.1 token-warning catalog readback
 
 - Update current Bauer README/version/pin/setup/token-guidance links to immutable canonical `08320e9155850cbd9b4be2f2051eb62bf4247f81`, version0.2.1/96 tests. Visible token-intensive warning explains repository tracing/source queries/evidence review/reporting, scope/host variability, separate optional Jev charges and bounded scope without false completion or estimates. Default-branch GitHub source already follows canonical; catalog bytes and metadata deliberately unchanged.

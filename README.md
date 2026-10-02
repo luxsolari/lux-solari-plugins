@@ -110,33 +110,13 @@ Or from inside Claude Code:
 /plugin install bauer@lux-solari-plugins
 ```
 
-Bauer v0.2.1 at canonical revision `08320e9155850cbd9b4be2f2051eb62bf4247f81` retains deterministic
-Jev selection with disabled/MEDIUM defaults, explicit scheduling opt-in, complete
-five-severity tables and a supplied-evidence completion/applicability gate. Five
-CLI helpers plus the completion support module and 96 offline tests ship upstream.
-The patch adds actual-chat preflight/closing warnings and generated JSON/Markdown
-resource notes. Security audits can be token-intensive: repository tracing,
-source queries, repeated evidence review and reporting can consume substantial
-tokens. Usage depends on repository scope and host model; no exact estimate is
-promised. Optional Jev charges are separate. If budget matters, agree on bounded
-scope; unfinished mandatory checks remain partial under the continuation gate.
-See [token guidance](https://github.com/luxsolari/bauer/blob/08320e9155850cbd9b4be2f2051eb62bf4247f81/README.md#token-usage).
-Run report.py for both gate formats; completion.py has no standalone CLI. A separate boolean-only
-helper-environment preflight proactively offers all eligible reviews when a key
-is present; final packet approval remains separate from scheduling and key presence.
-Actual Claude session-local plugin and Codex local-skill synthetic checks verified
-queues, final count tables and present/absent preflight behavior without TypeSafe
-requests. Corrected-helper eligible-offer exercises used dummy-only presence
-and stopped for consent; no post-consent API transmission was tested. The gate
-validates supplied records, not source truth. These are not fresh feed audits or
-activated marketplace tests.
-Current installation is not established by the catalog checks.
+Bauer v0.3.0 follows canonical `25cad4f9c2e875444348f738fea012b812ae4287`. Lean is default; Full and explicit Custom retain required dependency/remote coverage. New audit reports and selection require a confirmed run record. Offline status/scorecard controls inspect saved evidence; the audit control is a plan, not a scanner.
 
-The catalog already follows `{"source":"github","repo":"luxsolari/bauer"}`;
-source and metadata remain unchanged. It resolves version 0.2.1 from the canonical
-manifest, not a duplicated catalog version or fixed tag. See [current setup](https://github.com/luxsolari/bauer/blob/08320e9155850cbd9b4be2f2051eb62bf4247f81/README.md#configure-your-key)
-and [release status](https://github.com/luxsolari/bauer/releases). Earlier release
-tags and historical limitations are preserved.
+Security audits can be token-intensive; unfinished checks stay partial and optional Jev charges are separate. You provide the key and environment; Bauer reads `TYPESAFE_API_KEY` in its helper process. Sending evidence still requires approval. See [current setup and host limits](https://github.com/luxsolari/bauer/blob/25cad4f9c2e875444348f738fea012b812ae4287/README.md).
+
+Unsigned records validate consistency, not user authority or safety. Claude preconfirmation discovery/helper ordering and Codex offline-disable proposals remain known limits; older installs do not prove new host activation. [JOURNAL.md](JOURNAL.md) records verification.
+
+The catalog already follows `{"source":"github","repo":"luxsolari/bauer"}` and resolves the version from the upstream manifest. Its source and metadata are unchanged.
 
 ## Maintaining this marketplace
 
