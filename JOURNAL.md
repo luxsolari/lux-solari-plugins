@@ -1,5 +1,17 @@
 # Journal
 
+## 2026-10-26 — advance reviewed marketplace source to published 1.7.3
+
+- Both editions are published as 1.7.3. Advance this claude source binding to immutable open three-axes-framework-v1.7.3 at b73c4c495ac87454c6544a11f34f152f151ea6b5; retain host identity, unrelated plugins, collection versions and historical provenance.
+- Generic synchronization correctly refused changed hooks. Manually reviewed the exact changed set (manifest/changelog/setup/path matcher); canonical mechanisms match the already-tested Codex adapter, Claude consumes the released native fix, and Hermes remains conversational. No generic guard is relaxed or automatic acceptance added.
+- Updated delivered version, exact copied artifacts and source/adaptation inventories. Known-release regression now binds 1.7.3 to its actual commit. Pending: exact-head CI and final audit. All marketplace PRs remain unmerged; no installed plugin or local harness is changed.
+- Files: release inventory/baseline, host manifest or skill/catalog, copied changelog/source references, source provenance where present, regression tests, CHANGELOG.md and JOURNAL.md.
+
+## 2026-10-26 — Windows onboarding final audit and CI evidence
+
+- Audit identified a release dependency: current Claude supports native PowerShell on Windows (official env-vars documentation), but this PR's immutable open 1.7.2 pin still uses POSIX onboarding quoting. Prepared canonical source fix in three-axes-framework PR 8; it passed full original checks and Linux/Windows/macOS onboarding CI. Clarified this dependency at the top of marketplace PR 14; do not merge it as delivering the Windows fix until a later published open patch is available.
+- Reran existing exact-head CI 40387149146, attempt 2, at 01c2f2aa4164b17ccb192433cac7c7ec6a979050: all 19 tests passed. Source-binding/latest-release no-op still passes, but those checks do not prove that pinned 1.7.2 contains unreleased fixes. No catalog/runtime/version, release/tag, installed plugin or user configuration changed in this turn. Supporter remains lockstep; no retag or release publication. Files: PR description; JOURNAL.md (local final observation).
+
 ## 2026-10-26 — synchronize Three Axes 1.7.2 and future stable releases
 
 - Updated claude distribution binding to published open three-axes-framework-v1.7.2 at cd0bc9066ad064c58a6981d93a1c4d34107a018b. Copied execution-context guidance and current command snapshots where shipped, retaining host adapters, shared invocation identity, unrelated plugins and older release history. No new product or collection release is created.
@@ -8,6 +20,9 @@
 - Audit corrections before freeze: extend the upstream inventory/guard to implicit default components (MCP/LSP/apps/agents and other unmapped runtime), so adding a component without editing plugin.json cannot bypass host adaptation review; add real Git-tree inventory and changed-MCP regressions. count only explicit workflow_dispatch runs when deciding whether bot CI has already been started; approval-pending pull_request runs must not suppress the dispatch. Recover a pushed branch with missing PR creation on rerun, preserve existing PR heads, and refuse closed prior synchronization PRs.
 - Open: exact-head hosted CI, final audit and human merge review. Owner explicitly authorized Actions-created PRs for all three repositories. Enabled and read back that setting while retaining default token permissions read and byte-equivalent ruleset responses. No branch protections, active installations, hook trust, release assets, tags or Supporter bytes changed. No fresh-model behavior claim. Local Python 3.12 checks complement the hosted Python 3.11 gate.
 - Environment: sandbox-default temporary directory blocked file creation for initial dependency/merge fixtures; reran using an isolated workspace temp directory. Native hook tests were compared separately outside the enclosing repository. No global dependency installation or host configuration changes.
+
+- Final post-freeze evidence: head 01c2f2aa4164b17ccb192433cac7c7ec6a979050; hosted CI https://github.com/luxsolari/lux-solari-plugins/actions/runs/40387149146 all passed. All 19 Python tests passed, including execution of the actual synchronization shell against controlled Git/GitHub responses. Canonical 22-file source inventory, merge baseline, exact copied commands/license and actual latest-release no-op were rechecked; scripts are identical in all three repos. Follow-up audit found no further synchronization issue. Earlier CI failed because the first mock did not model a branch existing after push; corrected that fixture and reran at these heads. PR remains open and automation is not active until merge; no future live bot-PR creation is claimed. This final observation is local/uncommitted to preserve the tested head.
+
 - Files: scripts/sync_three_axes.py; tests/test_release_sync.py; maintenance/three-axes; .github/workflows; component files/catalog; README.md; CHANGELOG.md; JOURNAL.md.
 
 ## 2026-10-26 — Unify the Lux Visual Systems family

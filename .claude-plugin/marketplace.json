@@ -28,8 +28,8 @@
       "source": {
         "source": "github",
         "repo": "luxsolari/three-axes-framework",
-        "ref": "three-axes-framework-v1.7.2",
-        "sha": "cd0bc9066ad064c58a6981d93a1c4d34107a018b"
+        "ref": "three-axes-framework-v1.7.3",
+        "sha": "b73c4c495ac87454c6544a11f34f152f151ea6b5"
       }
     },
     {
