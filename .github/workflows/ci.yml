@@ -1,6 +1,7 @@
 name: CI
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
   pull_request:
@@ -27,3 +28,6 @@ jobs:
           "
       - name: Check Bauer marketplace entry
         run: python3 -m unittest discover -s tests -v
+
+      - name: Check Three Axes released-source binding
+        run: python3 scripts/sync_three_axes.py --check
