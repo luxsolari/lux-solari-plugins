@@ -60,20 +60,20 @@
       }
     },
     {
-      "name": "lux-swiss",
-      "description": "Lux Swiss (formerly Duotone Swiss) — one of Lux Solari's house-mark design systems. A strict two-color (ink + warm cream) plus single blood-red accent, Swiss-minimalist visual system: visible borders, no shadows, Space Mono / Space Grotesk typography, hand-rolled SVG charts. Applies a consistent aesthetic across any stack.",
+      "name": "lux-visual-systems-lux-swiss",
+      "description": "Lux Visual Systems - Lux Swiss (formerly Duotone Swiss) — one of Lux Solari's house-mark design systems. A strict two-color (ink + warm cream) plus single blood-red accent, Swiss-minimalist visual system: visible borders, no shadows, Space Mono / Space Grotesk typography, hand-rolled SVG charts. Applies a consistent aesthetic across any stack.",
       "author": {
         "name": "Lux Solari",
         "email": "luxsolari@outlook.com"
       },
-      "homepage": "https://github.com/luxsolari/lux-swiss",
-      "repository": "https://github.com/luxsolari/lux-swiss",
+      "homepage": "https://github.com/luxsolari/lux-visual-systems-lux-swiss",
+      "repository": "https://github.com/luxsolari/lux-visual-systems-lux-swiss",
       "license": "MIT",
       "keywords": ["design-system", "duotone", "swiss-minimalist", "tailwind", "ui", "frontend", "theming", "space-mono", "space-grotesk"],
       "category": "design",
       "source": {
         "source": "github",
-        "repo": "luxsolari/lux-swiss"
+        "repo": "luxsolari/lux-visual-systems-lux-swiss"
       }
     },
     {
@@ -94,20 +94,20 @@
       }
     },
     {
-      "name": "tri-swiss",
-      "description": "Tri-Swiss — a tri-tone (ink + cream + Swiss Red + Pastel Turquoise highlight) Swiss-minimalist design system built around the Geist typeface family. Sibling to lux-swiss (formerly Duotone Swiss); same governance, different palette and type identity.",
+      "name": "lux-visual-systems-tri-swiss",
+      "description": "Lux Visual Systems - Tri-Swiss — a tri-tone (ink + cream + Swiss Red + Pastel Turquoise highlight) Swiss-minimalist design system built around the Geist typeface family. Sibling to lux-visual-systems-lux-swiss (formerly Duotone Swiss); same governance, different palette and type identity.",
       "author": {
         "name": "Lux Solari",
         "email": "luxsolari@outlook.com"
       },
-      "homepage": "https://github.com/luxsolari/tri-swiss",
-      "repository": "https://github.com/luxsolari/tri-swiss",
+      "homepage": "https://github.com/luxsolari/lux-visual-systems-tri-swiss",
+      "repository": "https://github.com/luxsolari/lux-visual-systems-tri-swiss",
       "license": "MIT",
       "keywords": ["design-system", "tri-tone", "swiss-minimalist", "tailwind", "ui", "frontend", "theming", "geist", "geist-sans", "geist-mono"],
       "category": "design",
       "source": {
         "source": "github",
-        "repo": "luxsolari/tri-swiss"
+        "repo": "luxsolari/lux-visual-systems-tri-swiss"
       }
     },
     {

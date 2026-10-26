@@ -51,9 +51,9 @@ claude plugin install whiting@lux-solari-plugins
 
 See [whiting](https://github.com/luxsolari/whiting) for full documentation.
 
-### lux-swiss
+### lux-visual-systems-lux-swiss
 
-Lux Swiss (formerly Duotone Swiss) — one of Lux Solari's house-mark design
+Lux Visual Systems - Lux Swiss (formerly Duotone Swiss) — one of Lux Solari's house-mark design
 systems. A strict two-color palette (ink + warm cream) plus a single
 blood-red accent, Swiss-minimalist layout with visible borders and no
 shadows, Space Mono / Space Grotesk typography, and hand-rolled SVG charts.
@@ -61,10 +61,10 @@ Applies a consistent aesthetic to any UI work by default and ships a
 ready-to-paste Tailwind 4 theme.
 
 ```bash
-claude plugin install lux-swiss@lux-solari-plugins
+claude plugin install lux-visual-systems-lux-swiss@lux-solari-plugins
 ```
 
-See [lux-swiss](https://github.com/luxsolari/lux-swiss) for full documentation.
+See [lux-visual-systems-lux-swiss](https://github.com/luxsolari/lux-visual-systems-lux-swiss) for full documentation.
 
 ### hannah
 
@@ -78,19 +78,19 @@ claude plugin install hannah@lux-solari-plugins
 
 See [hannah](https://github.com/luxsolari/hannah) for full documentation.
 
-### tri-swiss
+### lux-visual-systems-tri-swiss
 
-Tri-Swiss — a tri-tone (ink + cream + Swiss Red + Pastel Turquoise highlight)
+Lux Visual Systems - Tri-Swiss — a tri-tone (ink + cream + Swiss Red + Pastel Turquoise highlight)
 Swiss-minimalist design system built around the Geist typeface family.
-Sibling to `lux-swiss` (formerly Duotone Swiss); same governance, different
+Sibling to `lux-visual-systems-lux-swiss` (formerly Duotone Swiss); same governance, different
 palette and type identity. Ships a ready-to-paste Tailwind 4 theme and a
 component catalogue.
 
 ```bash
-claude plugin install tri-swiss@lux-solari-plugins
+claude plugin install lux-visual-systems-tri-swiss@lux-solari-plugins
 ```
 
-See [tri-swiss](https://github.com/luxsolari/tri-swiss) for full documentation.
+See [lux-visual-systems-tri-swiss](https://github.com/luxsolari/lux-visual-systems-tri-swiss) for full documentation.
 
 ### bauer
 
