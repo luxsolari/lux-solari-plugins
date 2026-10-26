@@ -1,5 +1,15 @@
 # Journal
 
+## 2026-10-26 — synchronize Three Axes 1.7.2 and future stable releases
+
+- Updated claude distribution binding to published open three-axes-framework-v1.7.2 at cd0bc9066ad064c58a6981d93a1c4d34107a018b. Copied execution-context guidance and current command snapshots where shipped, retaining host adapters, shared invocation identity, unrelated plugins and older release history. No new product or collection release is created.
+- Added a dependency-free Python 3.11 updater, canonical merge baseline, source/adapter inventory, hourly workflow and explicit full CI dispatch for bot PRs. Updates are proposed on branches, never directly on main and never auto-approved or merged. Rewritten versions, downgrades, unpublished/prerelease tags, changed source layouts/hooks/contracts and conflicting translations refuse before file writes.
+- Verified locally: 16 Python tests and native Claude strict marketplace validation passed. The entry pins the published tag and full resolved commit without adding a second catalog version. The 15 new offline regressions include a future update across all three hosts and no-op rerun, drift/conflict/downgrade/ref-injection/rewrite refusals and current execution-context guidance. Pre-change Codex/Hermes skills lack that guidance. Actual GitHub release/tag retrieval returns already synchronized without modifying files in all three repositories.
+- Audit corrections before freeze: count only explicit workflow_dispatch runs when deciding whether bot CI has already been started; approval-pending pull_request runs must not suppress the dispatch. Recover a pushed branch with missing PR creation on rerun, preserve existing PR heads, and refuse closed prior synchronization PRs.
+- Open: exact-head hosted CI, final audit and human merge review. Repository setting allowing Actions-created PRs is currently disabled; requested owner authorization before changing it. No branch protections, active installations, hook trust, release assets, tags or Supporter bytes changed. No fresh-model behavior claim. Local Python 3.12 checks complement the hosted Python 3.11 gate.
+- Environment: sandbox-default temporary directory blocked file creation for initial dependency/merge fixtures; reran using an isolated workspace temp directory. Native hook tests were compared separately outside the enclosing repository. No global dependency installation or host configuration changes.
+- Files: scripts/sync_three_axes.py; tests/test_release_sync.py; maintenance/three-axes; .github/workflows; component files/catalog; README.md; CHANGELOG.md; JOURNAL.md.
+
 ## 2026-10-26 — Unify the Lux Visual Systems family
 
 - Changed active branding, repository/install identifiers and explicit skill/command references to the three owner-approved family names. Preserved historical changelog/journal entries, source snapshots, licenses, binary assets and version numbers. Source identifiers are a breaking migration; users must select/reinstall the new package.

@@ -18,11 +18,18 @@
       "homepage": "https://github.com/luxsolari/three-axes-framework",
       "repository": "https://github.com/luxsolari/three-axes-framework",
       "license": "MIT",
-      "keywords": ["ai-assisted-development", "comprehension-debt", "developer-philosophy", "learning"],
+      "keywords": [
+        "ai-assisted-development",
+        "comprehension-debt",
+        "developer-philosophy",
+        "learning"
+      ],
       "category": "productivity",
       "source": {
         "source": "github",
-        "repo": "luxsolari/three-axes-framework"
+        "repo": "luxsolari/three-axes-framework",
+        "ref": "three-axes-framework-v1.7.2",
+        "sha": "cd0bc9066ad064c58a6981d93a1c4d34107a018b"
       }
     },
     {
@@ -35,7 +42,15 @@
       "homepage": "https://github.com/luxsolari/sage-instructor",
       "repository": "https://github.com/luxsolari/sage-instructor",
       "license": "MIT",
-      "keywords": ["instructor", "learning", "teaching", "curriculum", "three-axes-framework", "comprehension-debt", "programming-education"],
+      "keywords": [
+        "instructor",
+        "learning",
+        "teaching",
+        "curriculum",
+        "three-axes-framework",
+        "comprehension-debt",
+        "programming-education"
+      ],
       "category": "productivity",
       "source": {
         "source": "github",
@@ -52,7 +67,17 @@
       "homepage": "https://github.com/luxsolari/whiting",
       "repository": "https://github.com/luxsolari/whiting",
       "license": "MIT",
-      "keywords": ["github-releases", "changelog", "keep-a-changelog", "conventional-commits", "semver", "repo-init", "git-hooks", "agents-md", "automation"],
+      "keywords": [
+        "github-releases",
+        "changelog",
+        "keep-a-changelog",
+        "conventional-commits",
+        "semver",
+        "repo-init",
+        "git-hooks",
+        "agents-md",
+        "automation"
+      ],
       "category": "productivity",
       "source": {
         "source": "github",
@@ -69,7 +94,17 @@
       "homepage": "https://github.com/luxsolari/lux-visual-systems-lux-swiss",
       "repository": "https://github.com/luxsolari/lux-visual-systems-lux-swiss",
       "license": "MIT",
-      "keywords": ["design-system", "duotone", "swiss-minimalist", "tailwind", "ui", "frontend", "theming", "space-mono", "space-grotesk"],
+      "keywords": [
+        "design-system",
+        "duotone",
+        "swiss-minimalist",
+        "tailwind",
+        "ui",
+        "frontend",
+        "theming",
+        "space-mono",
+        "space-grotesk"
+      ],
       "category": "design",
       "source": {
         "source": "github",
@@ -86,7 +121,15 @@
       "homepage": "https://github.com/luxsolari/hannah",
       "repository": "https://github.com/luxsolari/hannah",
       "license": "MIT",
-      "keywords": ["llm", "ollama", "models", "hardware", "repo-analysis", "mlx", "local-inference"],
+      "keywords": [
+        "llm",
+        "ollama",
+        "models",
+        "hardware",
+        "repo-analysis",
+        "mlx",
+        "local-inference"
+      ],
       "category": "productivity",
       "source": {
         "source": "github",
@@ -103,7 +146,18 @@
       "homepage": "https://github.com/luxsolari/lux-visual-systems-tri-swiss",
       "repository": "https://github.com/luxsolari/lux-visual-systems-tri-swiss",
       "license": "MIT",
-      "keywords": ["design-system", "tri-tone", "swiss-minimalist", "tailwind", "ui", "frontend", "theming", "geist", "geist-sans", "geist-mono"],
+      "keywords": [
+        "design-system",
+        "tri-tone",
+        "swiss-minimalist",
+        "tailwind",
+        "ui",
+        "frontend",
+        "theming",
+        "geist",
+        "geist-sans",
+        "geist-mono"
+      ],
       "category": "design",
       "source": {
         "source": "github",
@@ -119,7 +173,12 @@
       "homepage": "https://github.com/luxsolari/bauer",
       "repository": "https://github.com/luxsolari/bauer",
       "license": "MIT",
-      "keywords": ["security", "owasp", "llm", "audit"],
+      "keywords": [
+        "security",
+        "owasp",
+        "llm",
+        "audit"
+      ],
       "category": "security",
       "source": {
         "source": "github",

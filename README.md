@@ -140,3 +140,26 @@ Optional installation smoke test (changes your local Claude configuration):
 claude plugin marketplace add ./lux-solari-plugins           # add the local copy
 claude plugin install <name>@lux-solari-plugins              # install a plugin from it
 ```
+
+## Three Axes release synchronization
+
+The Three Axes component follows published stable releases of
+[luxsolari/three-axes-framework](https://github.com/luxsolari/three-axes-framework/releases).
+Its tag, resolved commit, canonical source hashes and host adaptation hashes live
+in `maintenance/three-axes/release.json`; collection versions remain independent.
+Claude resolves the pinned upstream package; Codex and Hermes retain their native
+and conversational adaptations respectively.
+
+After this workflow is merged, `sync-three-axes.yml` checks hourly (GitHub may
+delay scheduled jobs), or on manual dispatch. It prepares a versioned branch and
+PR, then explicitly dispatches full CI at that branch. It never approves or merges
+a PR, publishes a release, or changes user installations. Repository Actions
+settings must allow GitHub Actions to create pull requests. No cross-repository
+secret is required. If the source layout, hooks, manifest contract or translated
+passages change incompatibly, the run fails for manual adaptation and review.
+Existing PR heads are preserved; reruns recover missing PR creation/CI dispatch.
+
+Run `python scripts/sync_three_axes.py --check` for an offline drift check, or
+`python scripts/sync_three_axes.py` to prepare the latest published release locally.
+All regression tests are offline. A matching version with different source bytes
+or commit is refused; previously published tags are never replaced.
